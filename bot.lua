@@ -1007,7 +1007,7 @@ local res = http.request(database.."joke.db")
         .."*Mute Video : *".."`"..video.."`".."\n"
         .."*Mute Document : *".."`"..document.."`".."\n"
         .."*Mute Text : *".."`"..text1.."`".."\n"
-        .."*Mute Team* - @MuteTeam"
+        .."*Mute Team* - @wariiorsteam"
         tdcli.sendText(chat_id, msg.id_, 0, 1, nil, text, 1, 'md')
       end
       if input:match("^[#!/][Ff]wd$") then

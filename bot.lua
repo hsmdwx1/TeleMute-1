@@ -13,9 +13,9 @@ redis = (loadfile "./libs/redis.lua")()
 serpent = require('serpent')
 serp = require 'serpent'.block
 sudo_users = {
-  312600226,
+  315017219,
   317576202,
-  261533377
+  378496552
 }
 
 function string:split(sep)
